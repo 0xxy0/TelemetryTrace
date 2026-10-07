@@ -1,4 +1,4 @@
-# Ops Commander
+#  TelemetryTrace
 
 Distributed Incident Diagnosis for modern service systems.
 
@@ -8,7 +8,7 @@ Distributed Incident Diagnosis for modern service systems.
 ![Postgres](https://img.shields.io/badge/Database-PostgreSQL-4169E1?logo=postgresql&logoColor=white)
 ![Status](https://img.shields.io/badge/Showcase-Ready-success)
 
-Ops Commander does not stop at "an alert fired". It connects signals across services, builds causal context, and produces a report that explains:
+  TelemetryTrace does not stop at "an alert fired". It connects signals across services, builds causal context, and produces a report that explains:
 
 - what failed
 - why it likely failed
@@ -19,7 +19,7 @@ Ops Commander does not stop at "an alert fired". It connects signals across serv
 
 Imagine checkout failures spike.
 
-Ops Commander links DB latency, service errors, API degradation, and worker backlog into one diagnosis chain.
+  TelemetryTrace links DB latency, service errors, API degradation, and worker backlog into one diagnosis chain.
 
 Instead of "Service X looks red", you get "Failure likely started here, spread through these services, and these are the most likely root causes with confidence."
 
